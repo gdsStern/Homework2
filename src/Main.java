@@ -55,5 +55,6 @@ public class Main {
         var totalPeron2 = totalPerson + 94;
         var totalHours2 = totalPeron2 * hoursPerPerson;
         System.out.println("Если в компании работает " + totalPeron2 + " человек, то всего " + totalHours2 + " часов работы может быть поделено между сотрудниками");
+
     }
 }
