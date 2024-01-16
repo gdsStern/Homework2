@@ -7,19 +7,19 @@ public class Main {
         System.out.println(cat);
         System.out.println(paper);
 
-        var result2 = dog - 4;
-        var result22 = cat - 4;
-        var result222 = paper - 4;
-        System.out.println(result2);
-        System.out.println(result22);
-        System.out.println(result222);
+        dog = dog - 4;
+        cat = cat - 4;
+        paper = paper - 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-        var result3 = dog - 3.5;
-        var result33 = cat - 1.6;
-        var result333 = paper - 7639;
-        System.out.println(result3);
-        System.out.println(result33);
-        System.out.println(result333);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
@@ -37,15 +37,15 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
-        var pl1Weight = 78.2;
-        var pl2Weight = 82.7;
-        var result6 = pl1Weight + pl2Weight;
-        var result66 = pl1Weight - pl2Weight;
-        System.out.println(result6);
+        var firstFighterWeight = 78.2;
+        var secondFighterWeight = 82.7;
+        var bothFightersWeight = firstFighterWeight + secondFighterWeight;
+        var result66 = firstFighterWeight - secondFighterWeight;
+        System.out.println(bothFightersWeight);
         System.out.println(result66);
 
-        var result7 = pl2Weight - pl1Weight;
-        var result77 = pl2Weight % pl1Weight;
+        var result7 = secondFighterWeight - firstFighterWeight;
+        var result77 = secondFighterWeight % firstFighterWeight;
 
         var totalHours = 640;
         var hoursPerPerson = 8;
